@@ -6,7 +6,7 @@
       },
       {
         "source": "/realms/:path*",
-        "destination": "http://localhost8080/realms/:path*"
+        "destination": "http://localhost:8080/realms/:path*"
       },
       {
       "source": "/assets/:path*",
