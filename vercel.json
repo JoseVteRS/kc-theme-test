@@ -1,0 +1,25 @@
+{
+    "rewrites": [
+      {
+        "source": "/auth/:path*",
+        "destination": "http://localhost:8080/:path*" 
+      },
+      {
+        "source": "/realms/:path*",
+        "destination": "http://localhost8080/realms/:path*"
+      },
+      {
+      "source": "/assets/:path*",
+      "destination": "https://kc-theme-test-vite.vercel.app/assets/:path*"
+    }
+    ],
+    "headers": [
+      {
+        "source": "/auth/:path*",
+        "headers": [
+          { "key": "X-Real-IP", "value": "${request.headers.x-forwarded-for}" },
+          { "key": "X-Forwarded-For", "value": "${request.headers.x-forwarded-for}" }
+        ]
+      }
+    ]
+  }
