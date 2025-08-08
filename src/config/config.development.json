@@ -1,6 +1,6 @@
 {
     "TENANT_ID": "juegging_dgoj",
-    "AUTH_ENDPOINT": "http://localhost:8080/",
+    "AUTH_ENDPOINT": "https://api.eks-stage01.gigndvr.com/auth/",
     "BASE_URL": "http://localhost:5173",
     "KEYCLOAK_REALM": "juegging_dgoj",
     "KEYCLOAK_CLIENT_ID": "web-juegging_dgoj"
