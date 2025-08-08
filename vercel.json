@@ -2,11 +2,11 @@
     "rewrites": [
       {
         "source": "/auth/:path*",
-        "destination": "http://localhost:8080/:path*" 
+        "destination": "https://api.eks-stage01.gigndvr.com/auth/:path*" 
       },
       {
         "source": "/realms/:path*",
-        "destination": "http://localhost:8080/realms/:path*"
+        "destination": "https://api.eks-stage01.gigndvr.com/auth/realms/:path*"
       },
       {
       "source": "/assets/:path*",
